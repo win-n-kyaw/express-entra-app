@@ -1,0 +1,27 @@
+# Ignore node modules and dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Ignore environment files
+.env
+.env.dev
+
+# Ignore logs
+logs
+*.log
+log/*.log
+
+# Ignore build artifacts
+dist
+build
+
+# Ignore local development files
+.DS_Store
+.vscode
+.idea
+*.swp
+
+# Ignore Git files
+.git
+.gitignore
